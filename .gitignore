@@ -1,0 +1,46 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Virtual environment
+venv/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.sqlite3
+
+# Django specific files
+db.sqlite3
+media/
+staticfiles/
+*.log
+
+# Environment variables
+.env
+*.secret
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+*.iml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Migrations (optional if you don't want auto-generated files)
+*/migrations/*
+
+# Node.js dependencies (if you're using npm for frontend dependencies in Django)
+node_modules/
+
+# Coverage reports
+htmlcov/
+coverage.xml
+*.cover
